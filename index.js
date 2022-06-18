@@ -8,13 +8,13 @@ let mailTransporter = nodemailer.createTransport({
     secure: true,
     auth: {
         user: process.env.user,
-        pass: process.env.password
+        pass: process.env.pass
     }
 });
   
 let mailDetails = {
     from: 'sk5105938@gmail.com',
-    to: 'sajjad21@navgurukul.org',
+    to: 'anurag21@navgurukul.org',
     cc:'khaja21@navgurukul.org',
     bcc:'ss5105928@gmail.com',
     subject: 'Test mail',
